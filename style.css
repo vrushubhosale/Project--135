@@ -1,0 +1,44 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 100%;
+    font-size: 28px;
+    margin: 0%;
+}
+
+#start, #number_of_objects, #status{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    color: azure;
+    background-color: red;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+}
+
+.copy_right_footer :hover {
+    color: brown;
+    background-color: yellowgreen;
+}
+
+canvas{
+    border: 10px solid ;
+    box-shadow: 5px 5px 5px goldenrod;    
+        animation-name: ex;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        border-radius: 10px;
+        margin-top: 130px;
+}
+
+@keyframes ex{
+
+    from{border: 10px solid rgb(14, 212, 136);}
+    to{border: 10px solid rgb(2, 225, 255)}    
+}
